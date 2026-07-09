@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soil 7 in 1</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #07111f;
+        --panel: #0e1e33;
+        --text: #f4f7ff;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Inter, Arial, sans-serif;
+        background: linear-gradient(135deg, var(--bg), #142a45);
+        color: var(--text);
+        min-height: 100vh;
+      }
+      .wrap {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 24px;
+      }
+      .hero {
+        background: var(--panel);
+        border-radius: 24px;
+        padding: 24px;
+        box-shadow: 0 20px 45px rgba(0,0,0,0.25);
+        margin-bottom: 20px;
+      }
+      .hero h1 { margin-bottom: 8px; }
+      .hero p { color: #a7bedb; line-height: 1.6; }
+      .actions {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 16px;
+      }
+      .btn {
+        display: inline-block;
+        padding: 10px 16px;
+        border-radius: 999px;
+        text-decoration: none;
+        color: white;
+        background: linear-gradient(90deg, #33d1c4, #6f8cff);
+      }
+      iframe {
+        width: 100%;
+        min-height: 900px;
+        border: 0;
+        border-radius: 24px;
+        background: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="hero">
+        <h1>Soil 7 in 1</h1>
+        <p>Halaman ini memuat dashboard pemantauan tanah secara langsung agar data monitoring bisa dilihat dari situs utama Anda.</p>
+        <div class="actions">
+          <a class="btn" href="../index.html">Buka dashboard utama</a>
+        </div>
+      </section>
+      <iframe src="../index.html" title="Dashboard Soil Monitor"></iframe>
+    </div>
+  </body>
+</html>
